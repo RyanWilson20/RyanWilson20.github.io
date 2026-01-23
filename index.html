@@ -1,56 +1,105 @@
+<!DOCTYPE HTML>
+<!--
+	Story by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
 <html>
+	<head>
+		<title>Ryan Wilson Portfolio</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="is-preload">
 
-<h1>Ryan Wilson Portfolio</h1>
+		<!-- Wrapper -->
+			<div id="wrapper" class="divided">
 
-<h2>Projects</h2>
+				<!-- HEADER -->
+					<section class="banner style1 orient-left content-align-left image-position-right fullscreen onload-image-fade-in onload-content-fade-right">
+						<div class="content">
+							<h1>Hi! I'm Ryan Wilson</h1>
+							<p class="major">I’m a software engineer with a background in C# .NET backend development and experience building and supporting real-world applications including a full Skee-Ball machine to a game released on Steam. </p>
+							<ul class="actions stacked">
+								<li><a href="RyanWilsonResume.pdf" class="button big wide smooth-scroll-middle" target="_blank" rel="noopener noreferrer">My Resume</a></li>
+							</ul>
+						</div>
+						<div class="image">
+							<img src="images/banner.jpg" alt="" />
+						</div>
+					</section>
 
-<ul>
-<li> <a href="https://ryanwi.itch.io/zelda">The Legend of Zelda (Unity Remaster)</a>
-    <ul>
-        <li>
-            <p>The web build sometimes loads with the resolution screwed up on certain screen resolutions. It fixes if you zoom out then zoom back in the webpage.</p>
-        </li>
-        <li>
-            <p>For the first milestone of this game, I developed the room transitions, most of the door mechanics, and helped with general debugging across tasks that my teammates worked on.</p>
-        </li>
-        <li>
-            <p>For the alpha version of the game, I implemented the bomb, boomerang for the player, the 2D bow room, pushable blocks, and fixed most of the bugs before getting it ready for the submission.</p>
-        </li>
-        <li>
-            <p>For the final gold build of the game, I handled the polishing and fixing of most of the original mechanics as well as implementing the smashable blocks and designing some of the rooms in the latter half of the alternate dungeon. I also assisted in modifications to the dash functionality to help ensure that it was interesting while also being fun to use.</p>
-        </li>
-        <li>
-            <p>Technologies: C#, Unity</p>
-        </li>
-    </ul>
-</li>
-<li> <a href="https://ryanwi.itch.io/grappleguy">Grapple Guy</a>
-    <ul>
-        <li>
-            <p>A 2D puzzle platformer game that the player must use a grappling hook to navigate rooms. I developed the game by myself over the course of 2 weeks.</p>
-        </li>
-        <li>
-            <p>Buttons: Square buttons stay down when pressed while round buttons need to be held down and trigger doors or fields</p>
-            <p>Jump Pads: Launch the player upwards when touched</p>
-            <p>Fields: Cause the player's hook to disconnect when they are passed through</p>
-        </li>
-        <li>
-            <p>Technologies: C#, Unity</p>
-        </li>
-    </ul>
-</li>
-<li> <a href="https://ryanwi.itch.io/sparkshift">SparkShift</a>
-    <ul>
-        <li>
-            <p>A co-op 2D puzzle platformer game in which 2 robots must navigate through an abandoned laboratory to escape. Developed in a team of 5 over the course of 6 weeks with weekly playtesting sessions.</p>
-        </li>
-        <li>
-            <p>For this game, I created the initial idea and implemented the first prototype and conceptualized the theme. During development, I specialized on level design, visuals, and guidance</p>
-        </li>
-        <li>
-            <p>Technologies: C#, Unity</p>
-        </li>
-    </ul>
-</li>
-</ul>
+				<!-- SKEEBALL -->
+					<section class="spotlight style1 orient-right content-align-left image-position-center onscroll-image-fade-in" id="first">
+						<div class="content">
+							<h2>Skee-Ball Machine</h2>
+							<p>Along with 2 other people, I planned, budgeted, and constructed a Skee-Ball machine. The machine is complete with a mounted monitor and a real-time scoring system managed by a Raspberry Pi, integrating physical sensors with a python backend. </p>
+							<p>As the lead of everything electrical and programming, I implemented a state machine with updates for score tracking, designed logic to allow tolerance for missed or duplicate sensor signals, and integrated hardware inputs with the game logic.</p>
+							<!-- <ul class="actions stacked">
+								<li><a href="#" class="button">Learn More</a></li>
+							</ul> -->
+						</div>
+						<div class="image">
+							<img src="images/spotlight01.jpg" alt="" />
+						</div>
+					</section>
+
+				<!-- HOLY SHIP -->
+					<section class="spotlight style1 orient-left content-align-left image-position-center onscroll-image-fade-in">
+						<div class="content">
+							<h2>Holy Ship — Published on Steam</h2>
+							<p>On a team of 2 people, Holy Ship was developed using the Unity game engine with C#. I developed many of the core gameplay systems, scene management, UI, and architecture. I worked with the team member to manage the Steam publishing pipeline and iterated based on playtesting and user feedback.</p>
+							<p>After completing a postmortum of the project and discussing places we went right and wrong, we are currently working on a complete refactor/rebuild of the game. Feel free to ask me about this process!</p>
+							<!-- <ul class="actions stacked">
+								<li><a href="#" class="button">Learn More</a></li>
+							</ul> -->
+							<ul class="actions stacked">
+								<li><a href="https://store.steampowered.com/app/2411670/Holy_Ship/" class="button" target="_blank" rel="noopener noreferrer">Steam Page</a></li>
+							</ul>
+						</div>
+						<div class="image">
+							<img src="images/spotlight02.jpg" alt="" />
+						</div>
+					</section>
+
+				<!-- Work Experience -->
+					<!-- <section class="spotlight style1 orient-right content-align-left image-position-center onscroll-image-fade-in">
+						<div class="content">
+							<h2>Pharetra etiam nulla</h2>
+							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi id ante sed ex pharetra lacinia sit amet vel massa. Donec facilisis laoreet nulla eu bibendum. Donec ut ex risus. Fusce lorem lectus, pharetra pretium massa et, hendrerit vestibulum odio lorem ipsum dolor sit amet.</p>
+							<ul class="actions stacked">
+								<li><a href="#" class="button">Learn More</a></li>
+							</ul>
+						</div>
+						<div class="image">
+							<img src="images/spotlight03.jpg" alt="" />
+						</div>
+					</section> -->
+
+				<!-- Footer -->
+					<footer class="wrapper style1 align-center">
+						<div class="inner">
+							<ul class="icons">
+								<li><a href="https://www.linkedin.com/in/ryan-wilson20/" class="icon brands style2 fa-linkedin-in" target="_blank" rel="noopener noreferrer"><span class="label">LinkedIn</span></a></li>
+								<li><a href="https://github.com/RyanWilson20" class="icon brands style2 fa-github" target="_blank" rel="noopener noreferrer"><span class="label">GitHub</span></a></li>
+								<li><a href="mailto:ryan.wilson1441@gmail.com" class="icon style2 fa-envelope" target="_blank" rel="noopener noreferrer"><span class="label">Email</span></a></li>
+							</ul>
+							<p>Design: <a href="https://html5up.net">HTML5 UP</a>.</p>
+						</div>
+					</footer>
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
 </html>
